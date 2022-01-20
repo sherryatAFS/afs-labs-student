@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: harbor.dev.afsmtddso.com/ssmith-harbor-project/app:971c881-9db3723
+        image: harbor.dev.afsmtddso.com/ssmith-harbor-project/db@sha256:0a4d6a6114f32e50aa98d21dc49705778a9327f1364cb581702cb133c555f247
         ports:
         - containerPort: 5432
