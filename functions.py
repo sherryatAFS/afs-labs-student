@@ -30,7 +30,7 @@ def get_cart_weight(cart):
 
 
 def get_cart_total(cart):
-    """Calculate total price of cart"""
+    """Calculate total price of the cart"""
 
     session["cart_total"] = 0.00
 
